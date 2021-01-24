@@ -152,3 +152,5 @@ struct node *Delete(struct node *head,int pos)
 		ptr->next->prev=temp;
 	}
 	free(ptr);
+	return(head);
+}
